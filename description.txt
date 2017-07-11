@@ -1,0 +1,15 @@
+The Copper Shortsword may be the most useless weapon in the game. Usually, a player immediately goes for a Wooden Sword or a Cactus Sword. This mod aims to make it more useful by making it the starting point for a line of shortswords, going to the Moon Lord and beyond.
+
+UPCOMING ADDITIONS
+
+- More shortswords: Copper/Tin, Iron/Lead, Tungsten/Silver, Gold/Platinum, Jungle, Dungeon, Demonite/Crimtane, Enchanted (Enchanted/Arkhalis), Meteor, Hellstone, Cobalt/Palladium, Mythril/Orichalcum, Titanium/Adamantite, Hallowed, True Hallowed (using Broken Hero Sword), Chlorophyte, Spectre (Ectoplasm), Halloween (Pumpkin Moon), Christmas (Frost Moon), Temple, Martian, Ocean (Duke Fishron), and maybe a few more
+- Accessories that exclusively boost shortsword stats
+- New sword-themed post-Moon Lord boss
+
+CHANGELOG
+
+v0.1
+-----
+
+- Added Solar Stabber (post-Solar Pillar); made from 14 Solar Fragments at an Ancient Manipulator
+- Added Lunar Lance (post-Moon Lord); made from a Solar Stabber and 8 Luminite Bars at an Ancient Manipulator
