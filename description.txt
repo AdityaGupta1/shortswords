@@ -8,7 +8,13 @@ UPCOMING ADDITIONS
 
 CHANGELOG
 
-v0.1
+v1.0.1
+-----
+
+- Added Solar Gauntlet; made from Fire Gauntlet and 8 Solar Fragments at an Ancient Manipulator; 2 defense, 16% increased melee damage + speed, inflicts Daybroken on hit
+  - Currently inflicts Daybroken on all types of damage, need to restrict it to melee
+
+v1.0
 -----
 
 - Added Solar Stabber (post-Solar Pillar); made from 14 Solar Fragments at an Ancient Manipulator
