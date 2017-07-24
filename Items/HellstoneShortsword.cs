@@ -20,9 +20,8 @@ namespace Shortswords.Items {
             item.scale = 1.5f;
             item.rare = 3;
             item.UseSound = SoundID.Item1;
-            item.value = 18000;
+            item.value = 20000;
             item.autoReuse = true;
-            item.useTurn = true;
         }
 
         public override void AddRecipes() {

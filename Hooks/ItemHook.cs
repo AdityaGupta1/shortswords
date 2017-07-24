@@ -11,7 +11,6 @@ namespace Shortswords.Hooks {
             if (Array.IndexOf(vanillaShortswords, item.type) > -1) {
                 item.damage += 1;
                 item.autoReuse = true;
-                item.useTurn = true;
             }
         }
     }

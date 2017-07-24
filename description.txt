@@ -10,25 +10,32 @@ UPCOMING ADDITIONS
 
 CHANGELOG
 
+v1.2
+-----
+
+- New shortswords: Dugeon, Jungle, Night's Edge
+- Lunar Lance projectiles now move significantly faster
+- All regular (not spear-like) shortswords now don't allow turning while using so that you can backpedal while attacking in the other direction
+
 v1.1
 -----
 
 - New shortswords: Demonite, Crimtane, Hellstone, Hardmode Ores, and Hallowed
-  - All act like the vanilla shortswords (and not like spears)
-  - All are autoswing
+--- All act like the vanilla shortswords (and not like spears)
+--- All are autoswing
 - Improved vanilla shortswords
-  - +1 damage
-  - Autoswing
-  - Player can turn while using
+--- +1 damage
+--- Autoswing
+--- Player can turn while using
 - Added Shadowfrost Gauntlet; made from Fire Gauntlet, Shadowflame Knife, and a Frost Core at a Mythril Anvil; 12% increased melee damage + speed, inflicts Shadowflame and Frostburn on hit
-  - Still needs to be restricted to melee (like the Solar Gauntlet)
+--- Still needs to be restricted to melee (like the Solar Gauntlet)
 - Changed Solar Gauntlet recipe: now requires a Shadowfrost Gauntlet and 8 Solar Fragments at an Ancient Manipulator
 
 v1.0.1
 -----
 
 - Added Solar Gauntlet; made from Fire Gauntlet and 8 Solar Fragments at an Ancient Manipulator; 2 defense, 16% increased melee damage + speed, inflicts Daybroken on hit
-  - Currently inflicts Daybroken on all types of damage, need to restrict it to melee
+--- Currently inflicts Daybroken on all types of damage, need to restrict it to melee
 
 v1.0
 -----

@@ -21,7 +21,6 @@ namespace Shortswords.Items {
             item.UseSound = SoundID.Item1;
             item.value = 400000;
             item.autoReuse = true;
-            item.useTurn = true;
         }
 
         public override void AddRecipes() {
