@@ -36,7 +36,8 @@ namespace Shortswords.Items {
 
         public override void AddRecipes() {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "SolarShortsword", 1);
+            recipe.AddIngredient(ItemID.DemonScythe, 1);
+            recipe.AddIngredient(ItemID.DeathSickle, 1);
             recipe.AddIngredient(ItemID.LunarBar, 8);
             recipe.AddTile(TileID.LunarCraftingStation);
             recipe.SetResult(this);

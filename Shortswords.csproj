@@ -35,6 +35,8 @@
   <ItemGroup>
     <Compile Include="Hooks\ItemHook.cs" />
     <Compile Include="Hooks\PlayerHook.cs" />
+    <Compile Include="Items\DemoniteShortsword.cs" />
+    <Compile Include="Items\CrimtaneShortsword.cs" />
     <Compile Include="Items\HellstoneShortsword.cs" />
     <Compile Include="Items\HallowedShortsword.cs" />
     <Compile Include="Items\LunarShortsword.cs" />

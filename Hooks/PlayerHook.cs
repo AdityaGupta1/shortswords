@@ -8,10 +8,6 @@ namespace Shortswords.Hooks
     {
         public override void OnHitNPC(Item item, NPC target, int damage, float knockback, bool crit)
         {
-            if (!item.melee) {
-                return;
-            }
-
             int slot;
             bool daybreak = false;
             bool shadowfrost = false;

@@ -19,7 +19,8 @@ namespace Shortswords.Projectiles
 		{
 			projectile.width = 48;
 			projectile.height = 48;
-			projectile.aiStyle = 18;
+            projectile.aiStyle = 18;
+            // projectile.aiStyle = -1;
 			projectile.friendly = true;
 			projectile.melee = true;
 			projectile.light = 0.5f;

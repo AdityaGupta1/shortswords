@@ -6,7 +6,7 @@ namespace Shortswords.Items {
     public class SolarGauntlet : ModItem {
         public override void SetStaticDefaults() {
             Tooltip.SetDefault("16% increased melee damage and speed" +
-            "\nInflicts Daybroken on any attack");
+            "\nInflicts Daybroken on melee attacks");
         }
 
         public override void SetDefaults() {

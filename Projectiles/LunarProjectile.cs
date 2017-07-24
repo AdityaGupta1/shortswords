@@ -77,7 +77,8 @@ namespace Shortswords.Projectiles
 			}
 
 			if (!hasCreatedShoot) {
-				Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), projectile.velocity.X * 0.25f, projectile.velocity.Y * 0.25f, mod.ProjectileType<LunarShootProjectile>(), 220, 6f, projectile.owner);
+                float velocityMultiplier = 2f;
+                Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), projectile.velocity.X * velocityMultiplier, projectile.velocity.Y * velocityMultiplier, mod.ProjectileType<LunarShootProjectile>(), 220, 6f, projectile.owner);
 				hasCreatedShoot = true;
 			}
 		}

@@ -6,7 +6,7 @@ namespace Shortswords.Items {
     public class ShadowfrostGauntlet : ModItem {
         public override void SetStaticDefaults() {
             Tooltip.SetDefault("12% increased melee damage and speed" +
-            "\nInflicts Shadowflame and Frostburn on any attack");
+            "\nInflicts Shadowflame and Frostburn on melee attacks");
         }
 
         public override void SetDefaults() {
