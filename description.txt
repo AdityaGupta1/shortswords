@@ -1,5 +1,7 @@
 Shortswords may be the most ignored weapons in the game. Usually, a player immediately goes for a Wooden Sword or a Cactus Sword and ignores the shortswords afterwards. This mod aims to make them more useful by upgrading the vanilla shortswords and adding a number of new ones. The mod also adds "unconventional" shortswords which work like spears, so that they can be used in any direction. Some of them even shoot projectiles!
 
+Visit the mod's homepage (https://github.com/AdityaGupta1/shortswords) to see the source code or download other versions of the mod.
+
 UPCOMING ADDITIONS
 
 - More shortswords: Jungle, Dungeon, Enchanted, Meteor, Night's Edge, True Hallowed (using Broken Hero Sword), Terra (True Hallowed + Night's Edge), Chlorophyte, Spectre (Ectoplasm), Halloween (Pumpkin Moon), Christmas (Frost Moon), Temple, Martian, Ocean (Duke Fishron), and maybe a few more
