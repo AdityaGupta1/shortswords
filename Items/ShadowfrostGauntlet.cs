@@ -3,31 +3,31 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Shortswords.Items {
-    public class SolarGauntlet : ModItem {
+    public class ShadowfrostGauntlet : ModItem {
         public override void SetStaticDefaults() {
-            Tooltip.SetDefault("16% increased melee damage and speed" +
-            "\nInflicts Daybroken on any attack");
+            Tooltip.SetDefault("12% increased melee damage and speed" +
+            "\nInflicts Shadowflame and Frostburn on any attack");
         }
 
         public override void SetDefaults() {
             item.width = 26;
             item.height = 30;
-            item.value = 500000;
-            item.rare = 10;
+            item.value = 200000;
+            item.rare = 7;
             item.accessory = true;
-            item.defense = 2;
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual) {
-            player.meleeDamage *= 1.16f;
-            player.meleeSpeed *= 1.16f;
+            player.meleeDamage *= 1.12f;
+            player.meleeSpeed *= 1.12f;
         }
 
         public override void AddRecipes() {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(null, "ShadowfrostGauntlet", 1);
-            recipe.AddIngredient(ItemID.FragmentSolar, 8);
-            recipe.AddTile(TileID.LunarCraftingStation);
+            recipe.AddIngredient(ItemID.FireGauntlet, 1);
+            recipe.AddIngredient(ItemID.ShadowFlameKnife, 1);
+            recipe.AddIngredient(ItemID.FrostCore, 1);
+            recipe.AddTile(TileID.MythrilAnvil);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }

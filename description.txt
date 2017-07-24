@@ -1,12 +1,26 @@
-The Copper Shortsword may be the most useless weapon in the game. Usually, a player immediately goes for a Wooden Sword or a Cactus Sword. This mod aims to make it more useful by making it the starting point for a line of shortswords, going to the Moon Lord and beyond.
+Shortswords may be the most ignored weapons in the game. Usually, a player immediately goes for a Wooden Sword or a Cactus Sword and ignores the shortswords afterwards. This mod aims to make them more useful by upgrading the vanilla shortswords and adding a number of new ones. The mod also adds "unconventional" shortswords which work like spears, so that they can be used in any direction. Some of them even shoot projectiles!
 
 UPCOMING ADDITIONS
 
-- More shortswords: Copper/Tin, Iron/Lead, Tungsten/Silver, Gold/Platinum, Jungle, Dungeon, Demonite/Crimtane, Enchanted (Enchanted/Arkhalis), Meteor, Hellstone, Cobalt/Palladium, Mythril/Orichalcum, Titanium/Adamantite, Hallowed, True Hallowed (using Broken Hero Sword), Chlorophyte, Spectre (Ectoplasm), Halloween (Pumpkin Moon), Christmas (Frost Moon), Temple, Martian, Ocean (Duke Fishron), and maybe a few more
+- More shortswords: Jungle, Dungeon, Enchanted, Meteor, Night's Edge, True Hallowed (using Broken Hero Sword), Terra (True Hallowed + Night's Edge), Chlorophyte, Spectre (Ectoplasm), Halloween (Pumpkin Moon), Christmas (Frost Moon), Temple, Martian, Ocean (Duke Fishron), and maybe a few more
 - Accessories that exclusively boost shortsword stats
 - New sword-themed post-Moon Lord boss
 
 CHANGELOG
+
+v1.1
+-----
+
+- New shortswords: Demonite, Crimtane, Hellstone, Hardmode Ores, and Hallowed
+  - All act like the vanilla shortswords (and not like spears)
+  - All are autoswing
+- Improved vanilla shortswords
+  - +1 damage
+  - Autoswing
+  - Player can turn while using
+- Added Shadowfrost Gauntlet; made from Fire Gauntlet, Shadowflame Knife, and a Frost Core at a Mythril Anvil; 12% increased melee damage + speed, inflicts Shadowflame and Frostburn on hit
+  - Still needs to be restricted to melee (like the Solar Gauntlet)
+- Changed Solar Gauntlet recipe: now requires a Shadowfrost Gauntlet and 8 Solar Fragments at an Ancient Manipulator
 
 v1.0.1
 -----

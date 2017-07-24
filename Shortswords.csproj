@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -33,7 +33,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs" />
+    <Compile Include="Hooks\ItemHook.cs" />
+    <Compile Include="Hooks\PlayerHook.cs" />
+    <Compile Include="Items\HellstoneShortsword.cs" />
+    <Compile Include="Items\HallowedShortsword.cs" />
+    <Compile Include="Items\LunarShortsword.cs" />
+    <Compile Include="Items\MythicalShortsword.cs" />
+    <Compile Include="Items\ShadowfrostGauntlet.cs" />
+    <Compile Include="Items\SolarGauntlet.cs" />
+    <Compile Include="Items\SolarShortsword.cs" />
+    <Compile Include="Projectiles\LunarProjectile.cs" />
+    <Compile Include="Projectiles\LunarSecondaryProjectile.cs" />
+    <Compile Include="Projectiles\LunarShootProjectile.cs" />
+    <Compile Include="Projectiles\SolarProjectile.cs" />
+    <Compile Include="Projectiles\SolarRocketProjectile.cs" />
+    <Compile Include="Projectiles\SolarShootProjectile.cs" />
+    <Compile Include="Shortswords.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -59,7 +74,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-   <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
+    <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
 </Project>
-
