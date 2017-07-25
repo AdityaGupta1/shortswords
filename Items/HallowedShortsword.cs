@@ -5,21 +5,21 @@ namespace Shortswords.Items {
     public class HallowedShortsword : ModItem {
         public override void SetStaticDefaults() {
             DisplayName.SetDefault("Excali-stab-bur");
-            Tooltip.SetDefault("'Try pulling it out of a rock'");
+            Tooltip.SetDefault("'Try pulling it out of a stone'");
         }
 
         public override void SetDefaults() {
             item.melee = true;
-            item.damage = 55;
+            item.damage = 52;
             item.useStyle = 3;
             item.useAnimation = 18;
-            item.useTime = 8;
+            item.useTime = 13;
             item.knockBack = 4.5f;
             item.width = 44;
             item.height = 44;
             item.rare = 5;
             item.UseSound = SoundID.Item1;
-            item.value = 400000;
+            item.value = 200000;
             item.autoReuse = true;
         }
 

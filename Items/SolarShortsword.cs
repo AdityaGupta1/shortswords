@@ -16,11 +16,10 @@ namespace Shortswords.Items {
             item.useStyle = 5;
             item.useAnimation = 18;
             item.useTime = 24;
-            item.shootSpeed = 3.7f;
+            item.shootSpeed = 3f;
             item.knockBack = 6f;
-            item.width = 32;
-            item.height = 32;
-            item.scale = 1f;
+            item.width = 40;
+            item.height = 40;
             item.rare = 10;
             item.UseSound = SoundID.Item1;
             item.shoot = mod.ProjectileType<SolarProjectile>();

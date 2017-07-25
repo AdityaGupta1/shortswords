@@ -4,21 +4,19 @@ using Terraria;
 using Terraria.ModLoader;
 
 namespace Shortswords.Projectiles {
-    public class LunarProjectile : ModProjectile
+    public class TrueNightProjectile : ModProjectile
 	{
-		bool hasCreatedShoot = false;
-
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Lunar Lance");
+			DisplayName.SetDefault("True Night Knife");
 		}
 
 		public override void SetDefaults()
 		{
-			projectile.width = 40;
-			projectile.height = 40;
-            projectile.scale = 1.3f;
-            projectile.aiStyle = 19;
+			projectile.width = 38;
+			projectile.height = 36;
+            projectile.scale = 1.2f;
+			projectile.aiStyle = 19;
 			projectile.friendly = true;
 			projectile.penetrate = -1;
 			projectile.tileCollide = false;
@@ -41,9 +39,9 @@ namespace Shortswords.Projectiles {
 			projectile.direction = projOwner.direction;
 			projOwner.heldProj = projectile.whoAmI;
 			projOwner.itemTime = projOwner.itemAnimation;
-			projectile.position.X = ownerMountedCenter.X - (float)(projectile.width / 2);
-			projectile.position.Y = ownerMountedCenter.Y - (float)(projectile.height / 2);
-			if (!projOwner.frozen)
+            projectile.position.X = ownerMountedCenter.X - (float)(projectile.width / 2);
+            projectile.position.Y = ownerMountedCenter.Y - (float)(projectile.height / 2);
+            if (!projOwner.frozen)
 			{
 				if (movementFactor == 0f)
 				{
@@ -68,12 +66,6 @@ namespace Shortswords.Projectiles {
 			if (projectile.spriteDirection == -1)
 			{
 				projectile.rotation -= MathHelper.ToRadians(90f);
-			}
-
-			if (!hasCreatedShoot) {
-                float velocityMultiplier = 2f;
-                Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), projectile.velocity.X * velocityMultiplier, projectile.velocity.Y * velocityMultiplier, mod.ProjectileType<LunarShootProjectile>(), 220, 6f, projectile.owner);
-				hasCreatedShoot = true;
 			}
 		}
 	}

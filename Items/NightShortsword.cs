@@ -13,7 +13,7 @@ namespace Shortswords.Items {
             item.damage = 36;
             item.useStyle = 3;
             item.useAnimation = 18;
-            item.useTime = 13;
+            item.useTime = 14;
             item.knockBack = 4f;
             item.width = 34;
             item.height = 36;

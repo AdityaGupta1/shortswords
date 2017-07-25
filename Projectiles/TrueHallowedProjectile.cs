@@ -1,28 +1,20 @@
 using Microsoft.Xna.Framework;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Terraria;
-using Terraria.ID;
 using Terraria.ModLoader;
-using Shortswords;
 
-namespace Shortswords.Projectiles
-{
-	public class SolarProjectile : ModProjectile
+namespace Shortswords.Projectiles {
+    public class TrueHallowedProjectile : ModProjectile
 	{
-		bool hasCreatedShoot = false;
-
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Solar Stabber");
+			DisplayName.SetDefault("True Excali-stab-bur");
 		}
 
 		public override void SetDefaults()
 		{
-			projectile.width = 40;
-			projectile.height = 40;
+			projectile.width = 48;
+			projectile.height = 48;
             projectile.scale = 1.3f;
 			projectile.aiStyle = 19;
 			projectile.friendly = true;
@@ -75,30 +67,6 @@ namespace Shortswords.Projectiles
 			{
 				projectile.rotation -= MathHelper.ToRadians(90f);
 			}
-
-			if (!hasCreatedShoot) {
-				if (Shortswords.random.Next(4) == 0) {
-					double x = projectile.velocity.X;
-					double y = projectile.velocity.Y;
-
-					double spread = 5d;
-					spread *= Math.PI / 180;
-					double angle = Math.Atan2(y, x) + (spread * (Shortswords.random.NextDouble() - 0.5));
-					double velocity = 5 * Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
-
-					x = velocity * Math.Cos(angle);
-					y = velocity * Math.Sin(angle);
-
-					Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), (float) x, (float) y, mod.ProjectileType<SolarRocketProjectile>(), 200, 8f, projectile.owner);
-				}
-				Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), projectile.velocity.X * 3, projectile.velocity.Y * 3, mod.ProjectileType<SolarShootProjectile>(), 130, 6f, projectile.owner);
-				hasCreatedShoot = true;
-			}
-		}
-
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
-		{
-			target.AddBuff(BuffID.Daybreak, 300);
 		}
 	}
 }

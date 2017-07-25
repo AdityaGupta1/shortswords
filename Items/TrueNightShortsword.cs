@@ -5,25 +5,25 @@ using Terraria.ModLoader;
 using Shortswords.Projectiles;
 
 namespace Shortswords.Items {
-    public class LunarShortsword : ModItem {
+    public class TrueNightShortsword : ModItem {
         public override void SetStaticDefaults() {
-            DisplayName.SetDefault("Lunar Lance");
-            Tooltip.SetDefault("'A fragment of the Moon Lord's power'");
+            DisplayName.SetDefault("True Night Knife");
+            Tooltip.SetDefault("'Night Knife.'");
         }
 
         public override void SetDefaults() {
-            item.damage = 165;
+            item.damage = 78;
             item.useStyle = 5;
             item.useAnimation = 18;
-            item.useTime = 30;
-            item.shootSpeed = 3f;
-            item.knockBack = 7f;
-            item.width = 40;
-            item.height = 40;
-            item.rare = 10;
+            item.useTime = 14;
+            item.shootSpeed = 2.5f;
+            item.knockBack = 4.5f;
+            item.width = 36;
+            item.height = 38;
+            item.rare = 8;
             item.UseSound = SoundID.Item1;
-            item.shoot = mod.ProjectileType<LunarProjectile>();
-            item.value = 2500000;
+            item.shoot = mod.ProjectileType<TrueNightProjectile>();
+            item.value = 400000;
             item.noMelee = true;
             item.noUseGraphic = true;
             item.melee = true;
@@ -36,10 +36,9 @@ namespace Shortswords.Items {
 
         public override void AddRecipes() {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.DemonScythe, 1);
-            recipe.AddIngredient(ItemID.DeathSickle, 1);
-            recipe.AddIngredient(ItemID.LunarBar, 8);
-            recipe.AddTile(TileID.LunarCraftingStation);
+            recipe.AddIngredient(null, "NightShortsword", 1);
+            recipe.AddIngredient(ItemID.BrokenHeroSword, 1);
+            recipe.AddTile(TileID.MythrilAnvil);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }

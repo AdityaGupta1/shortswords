@@ -4,7 +4,7 @@ Visit the mod's homepage (https://github.com/AdityaGupta1/shortswords) to see th
 
 UPCOMING ADDITIONS
 
-- More shortswords: Jungle, Dungeon, Enchanted, Meteor, Night's Edge, True Hallowed (using Broken Hero Sword), Terra (True Hallowed + Night's Edge), Chlorophyte, Spectre (Ectoplasm), Halloween (Pumpkin Moon), Christmas (Frost Moon), Temple, Martian, Ocean (Duke Fishron), and maybe a few more
+- More shortswords: Enchanted, Meteor, Terra (True Hallowed + Night's Edge), Chlorophyte, Spectre (Ectoplasm), Halloween (Pumpkin Moon), Christmas (Frost Moon), Temple, Martian, Ocean (Duke Fishron), and maybe a few more
 - Accessories that exclusively boost shortsword stats
 - New sword-themed post-Moon Lord boss
 
@@ -13,7 +13,9 @@ CHANGELOG
 v1.2
 -----
 
-- New shortswords: Dugeon, Jungle, Night's Edge
+- New shortswords: Dugeon, Jungle, Night's Edge, True Night's Edge, True Hallowed
+--- Unlike vanilla True Night's Edge and True Hallowed, the shortsword versions don't shoot projectiles - instead, they are the first spear-like shortswords in the normal progression order
+--- The Terra shortsword will be the first (in terms of progression) to shoot projectiles
 - Lunar Lance projectiles now move significantly faster
 - All regular (not spear-like) shortswords now don't allow turning while using so that you can backpedal while attacking in the other direction
 
