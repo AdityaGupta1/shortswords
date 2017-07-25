@@ -10,6 +10,11 @@ UPCOMING ADDITIONS
 
 CHANGELOG
 
+v1.3
+-----
+- New shortswords: Space Knife (Meteor) and Xeroc Impaler (Meldiate Bars from the Calamity mod)
+--- The Xeroc Impaler is a post-Moon Lord spear-like weapon that shoots projectiles
+
 v1.2
 -----
 

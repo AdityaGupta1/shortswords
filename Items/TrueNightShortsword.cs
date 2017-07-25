@@ -8,7 +8,7 @@ namespace Shortswords.Items {
     public class TrueNightShortsword : ModItem {
         public override void SetStaticDefaults() {
             DisplayName.SetDefault("True Night Knife");
-            Tooltip.SetDefault("'Night Knife.'");
+            Tooltip.SetDefault("'Night knife.'");
         }
 
         public override void SetDefaults() {

@@ -1,20 +1,21 @@
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Shortswords.Projectiles {
-    public class LunarProjectile : ModProjectile {
+    public class XerocProjectile : ModProjectile {
         bool hasCreatedShoot = false;
 
         public override void SetStaticDefaults() {
-            DisplayName.SetDefault("Lunar Lance");
+            DisplayName.SetDefault("Xeroc Impaler");
         }
 
         public override void SetDefaults() {
-            projectile.width = 40;
-            projectile.height = 40;
-            projectile.scale = 1.3f;
+            projectile.width = 38;
+            projectile.height = 38;
+            projectile.scale = 1.4f;
             projectile.aiStyle = 19;
             projectile.friendly = true;
             projectile.penetrate = -1;
@@ -59,10 +60,17 @@ namespace Shortswords.Projectiles {
             }
 
             if (!hasCreatedShoot) {
-                float velocityMultiplier = 2f;
-                Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), projectile.velocity.X * velocityMultiplier, projectile.velocity.Y * velocityMultiplier, mod.ProjectileType<LunarShootProjectile>(), 220, 6f, projectile.owner);
+                float velocityMultiplier = 1.2f;
+                int damage = 90;
+                Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), projectile.velocity.X * velocityMultiplier, projectile.velocity.Y * velocityMultiplier, mod.ProjectileType<XerocShootProjectile>(), damage * 3, 6f, projectile.owner);
+                Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), projectile.velocity.X * velocityMultiplier * 2, projectile.velocity.Y * velocityMultiplier * 2, mod.ProjectileType<XerocShootProjectile>(), damage * 2, 6f, projectile.owner);
+                Projectile.NewProjectile(projectile.position.X + (projectile.width / 2), projectile.position.Y + (projectile.height / 2), projectile.velocity.X * velocityMultiplier * 3, projectile.velocity.Y * velocityMultiplier * 3, mod.ProjectileType<XerocShootProjectile>(), damage, 6f, projectile.owner);
                 hasCreatedShoot = true;
             }
+        }
+
+        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit) {
+            target.AddBuff(BuffID.CursedInferno, 180);
         }
     }
 }

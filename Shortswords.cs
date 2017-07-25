@@ -9,6 +9,9 @@ namespace Shortswords
 	class Shortswords : Mod
 	{
 		public static Random random = new Random();
+        public static Mod calamityMod = ModLoader.GetMod("CalamityMod");
+        public static Mod thoriumMod = ModLoader.GetMod("ThoriumMod");
+        public static Mod spiritMod = ModLoader.GetMod("SpiritMod");
 
 		public Shortswords()
 		{
