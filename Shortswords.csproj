@@ -33,60 +33,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Hooks\ItemHook.cs" />
-    <Compile Include="Hooks\PlayerHook.cs" />
-    <Compile Include="Items\CrimtaneShortsword.cs" />
-    <Compile Include="Items\DemoniteShortsword.cs" />
-    <Compile Include="Items\DungeonShortsword.cs" />
-    <Compile Include="Items\HallowedShortsword.cs" />
-    <Compile Include="Items\HellstoneShortsword.cs" />
-    <Compile Include="Items\JungleShortsword.cs" />
-    <Compile Include="Items\LunarShortsword.cs" />
-    <Compile Include="Items\MeteorShortsword.cs" />
-    <Compile Include="Items\MythicalShortsword.cs" />
-    <Compile Include="Items\NightShortsword.cs" />
-    <Compile Include="Items\ShadowfrostGauntlet.cs" />
-    <Compile Include="Items\SolarGauntlet.cs" />
-    <Compile Include="Items\SolarShortsword.cs" />
-    <Compile Include="Items\TrueHallowedShortsword.cs" />
-    <Compile Include="Items\TrueNightShortsword.cs" />
-    <Compile Include="Items\XerocShortsword.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="Projectiles\LunarProjectile.cs" />
-    <Compile Include="Projectiles\LunarSecondaryProjectile.cs" />
-    <Compile Include="Projectiles\LunarShootProjectile.cs" />
-    <Compile Include="Projectiles\SolarProjectile.cs" />
-    <Compile Include="Projectiles\SolarRocketProjectile.cs" />
-    <Compile Include="Projectiles\XerocShootProjectile.cs" />
-    <Compile Include="Projectiles\SolarShootProjectile.cs" />
-    <Compile Include="Projectiles\TrueHallowedProjectile.cs" />
-    <Compile Include="Projectiles\TrueNightProjectile.cs" />
-    <Compile Include="Projectiles\XerocProjectile.cs" />
-    <Compile Include="Projectiles\XerocShootProjectile.cs" />
-    <Compile Include="Shortswords.cs" />
+    <Compile Include="**\*.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.dll</HintPath>
+      <HintPath>C:\Users\Aditya\Programming\Terraria Files\Microsoft.Xna.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Game\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Game.dll</HintPath>
+      <HintPath>C:\Users\Aditya\Programming\Terraria Files\Microsoft.Xna.Framework.Game.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Graphics\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+      <HintPath>C:\Users\Aditya\Programming\Terraria Files\Microsoft.Xna.Framework.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Xact\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Xact.dll</HintPath>
+      <HintPath>C:\Users\Aditya\Programming\Terraria Files\Microsoft.Xna.Framework.Xact.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="Terraria">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
+      <HintPath>C:\Users\Aditya\Programming\Terraria Files\Terraria.exe</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

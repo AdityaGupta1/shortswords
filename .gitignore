@@ -4,3 +4,4 @@ bin/
 *.exe
 *.dll
 *.pdb
+*.sln

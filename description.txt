@@ -4,7 +4,7 @@ Visit the mod's homepage (https://github.com/AdityaGupta1/shortswords) to see th
 
 UPCOMING ADDITIONS
 
-- More shortswords: Enchanted, Meteor, Terra (True Hallowed + Night's Edge), Chlorophyte, Spectre (Ectoplasm), Halloween (Pumpkin Moon), Christmas (Frost Moon), Temple, Martian, Ocean (Duke Fishron), and maybe a few more
+- More shortswords: Terra (True Hallowed + Night's Edge), Chlorophyte, Spectre (Ectoplasm), Halloween (Pumpkin Moon), Christmas (Frost Moon), Temple, Martian, Ocean (Duke Fishron), and maybe a few more
 - Accessories that exclusively boost shortsword stats
 - New sword-themed post-Moon Lord boss
 
