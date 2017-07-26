@@ -17,18 +17,11 @@ namespace Shortswords.Projectiles {
             projectile.friendly = true;
             projectile.melee = true;
             projectile.light = 0.7f;
-            projectile.penetrate = 5;
             projectile.tileCollide = false;
         }
 
         public override void OnHitNPC(NPC target, int damage, float knockback, bool crit) {
             target.AddBuff(BuffID.CursedInferno, 180);
-
-            float velocityMultiplier = 1.25f;
-            projectile.velocity.X *= -1 * velocityMultiplier;
-            projectile.velocity.Y *= -1 * velocityMultiplier;
-
-            projectile.damage = (int) Math.Round(((double) projectile.damage) * ((Shortswords.random.NextDouble() * 0.4) + 0.8));
         }
 
         private float rotationIncrease = 0f;
